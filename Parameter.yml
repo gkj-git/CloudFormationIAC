@@ -4,9 +4,8 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: Create an EC2 instance and output its public IP address
 
 Parameters: 
-  MyKeyName: 
-    Description: select key from available keys
-    Type: "AWS::EC2::KeyPair::KeyName"
+  MyKeyName: KeysA
+   
   
   InstanceType: 
     # Type: "AWS::SSM::Parameter::Value<String>"  #if the value is comming from parameter store use this
