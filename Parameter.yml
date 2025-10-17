@@ -40,9 +40,3 @@ Resources:
           ToPort: 22
           CidrIp: 0.0.0.0/0  
 
-#output in Cloudformation
-
-Outputs:
-  PublicIPAddress:
-    Description: Public IP address of the EC2 instance
-    Value: !GetAtt MyEC2Instance.PublicIp
